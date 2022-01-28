@@ -1,0 +1,33 @@
+header {
+	background: #FFDEAD;
+}
+
+.cabeca{
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 65px;
+	right: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #D2691E;
+	font-weight: bold;
+	font-size: 22px;
+	margin: 0 0 0 15px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-size: 25px ;
+	text-decoration: underline;
+}
